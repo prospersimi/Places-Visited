@@ -1,0 +1,77 @@
+:root {
+    --primary-color: rgb(184, 115, 184);
+    --background-color: #eff0f4;
+    --primary-color-1: crimson;
+    --body-color: rgb(49, 48, 48);
+    --outer-shadow: 3px 3px 3px #575353, -3px -3px 3px #f8f8f8;
+    --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+  }
+
+body {
+    background-color: darkgray;
+}
+
+h5 {
+    background-color: #007bff;
+    text-align: center;
+    font-style: unset;
+    padding: 3px;
+    width: 30%;
+    border-radius: 40px;
+    box-shadow: var(--outer-shadow);
+    box-shadow: var(--outer-shadow);
+}
+
+ul {
+    padding-inline-start: 0;
+  }
+
+li {
+    font-family: sans-serif;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 500;
+    list-style: none;
+}
+
+.firstheader {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.btn-danger {
+    box-shadow: var(--outer-shadow);
+}
+
+#visits :hover {
+    cursor: pointer;
+    color: darkslateblue;
+}
+
+#save {
+    margin-bottom: 5px;
+    margin-left: 70%;
+    box-shadow: var(--outer-shadow);
+}
+
+#new {
+    border-radius: 100%;
+    font-size: larger;
+    font-weight: 900;
+    width: 40px;
+    box-shadow: var(--outer-shadow);
+}
+
+#firstcol {
+    background-color: lightgray;
+}
+
+#secondcol {
+    display: none;
+    background-color: darkgray;
+}
+
+#show-visit {
+    display: none;
+}
